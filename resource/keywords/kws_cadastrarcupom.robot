@@ -11,7 +11,7 @@ Clico no campo seu nome
 Digito o nome        
     [Documentation]  Responsavél por digitar o nome   
     ${NOMEFAKE}                 FakerLibrary.Name
-    Input Text      ${CampoSeuNome} ${NOMEFAKE}
+    Input Text      ${CampoSeuNome}     ${NOMEFAKE}
 
 Clico no campo Digite seu Email
     [Documentation]  Responsavél por clicar no campo Digite seu email

@@ -7,8 +7,8 @@ Force Tags      Pagina Inicial
 
 
 *** Test Case ***
-Caso de Teste 02: Validar o cadastro de email para recebimento de cupom
-   [Tags]    CT02
+Caso de Teste 01: Validar o cadastro de email para recebimento de cupom
+   [Tags]    CT01
    Acesso o site da magazineluiza
    E Clico no campo seu nome
    E Digito o nome

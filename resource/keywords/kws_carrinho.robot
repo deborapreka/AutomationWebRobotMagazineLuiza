@@ -35,9 +35,9 @@ Escolho a voltagem do produto
     Wait Until Element Is Visible                     ${VoltagemProduto220v} 
     Click Element                                     ${VoltagemProduto220v} 
 
-Clico em adicionar a sacola
+Visualizo o botão adicionar a sacola
     [Documentation]  Responsavél por adicionar o produto na sacola
     Wait Until Element Is Visible   ${AdicionarSacola} 
-    Click Element                   ${AdicionarSacola} 
+ 
 
     
