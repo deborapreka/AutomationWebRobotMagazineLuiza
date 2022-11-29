@@ -5,7 +5,9 @@ Resource       ../main.robot
 *** Variables ***
 ${BROWSER}            chrome
 ${URL}                https://www.magazineluiza.com.br
-${CHROME_OPTIONS}     add_argument("--disable-web-security");add_argument("--window-size=1920,1080");add_experimental_option("excludeSwitches", ["enable-logging"]);add_argument("--incognito")
+${CHROME_OPTIONS}     add_argument("--disable-web-security");add_argument("--window-size=1920,1080");add_experimental_option("excludeSwitches", ["enable-logging"]);add_argument("--disable-notifications");add_argument("---disable-infobars");add_argument("--enable-strict-powerful-feature-restrictions");add_argument("--disable-popup-blocking");add_argument("--disable-extensions");add_argument("--incognito")
+
+*** Keywords ***
 
 *** Keywords ***
 Nova sessão

@@ -7,10 +7,11 @@ Force Tags      Pagina Inicial
 
 
 *** Test Case ***
-Caso de Teste 02: Validar a busca de lojas em uma determinada região
+Caso de Teste 02: Validar o cadastro de email para recebimento de cupom
+   [Tags]    CT02
    Acesso o site da magazineluiza
-   E Clico no botão Nossas lojas
-   E Clico no campo CEP
-   E Insiro o CEP da região
-   Quando Clico no icone de lupa
-   Então Visualizo o endereço da loja
+   E Clico no campo seu nome
+   E Digito o nome
+   E Clico no campo Digite seu Email
+   Quando Digito o Email
+   Então Visualizo o botão cadastrar

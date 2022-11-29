@@ -40,8 +40,4 @@ Clico em adicionar a sacola
     Wait Until Element Is Visible   ${AdicionarSacola} 
     Click Element                   ${AdicionarSacola} 
 
-Visualizo a pagina de adição de garantia
-    [Documentation]  Responsavél por visualizar o produto na sacola
-    Wait Until Element Is Visible                 ${BotaoIrParaSacola}
- 
     
